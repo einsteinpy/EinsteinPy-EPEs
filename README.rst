@@ -16,7 +16,7 @@ Accepted EPEs
 === ================================================================ =========== ============
 #     Title                                                          Date        DOI
 === ================================================================ =========== ============
-1   `EPE Purpose and way to proceed`_                                2013-Nov-08 |APE 1 DOI|
+.. 1   `EPE Purpose and way to proceed`_                                2013-Nov-08 |APE 1 DOI|
 === ================================================================ =========== ============
 
 .. _EPE Purpose and way to proceed: https://github.com/astropy/astropy-APEs/blob/master/APE1.rst
