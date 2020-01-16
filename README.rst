@@ -89,7 +89,7 @@ or rejection.  One of the group members should then:
    corresponding RST link refs for both the DOI link and the new EPE.  Preview
    the update and test the links to make sure they are all correct.  Then commit
    directly to master (or PR if you prefer).
-#. Send an email to `astropy-dev <https://groups.io/g/einsteinpy-dev>`_
+#. Send an email to `einsteinpy-dev <https://groups.io/g/einsteinpy-dev>`_
    announcing the acceptance In general this should just point to the accepted
    EPE rather than providing additional decision rationale.
 
