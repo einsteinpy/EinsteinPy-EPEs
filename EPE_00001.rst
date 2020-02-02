@@ -1,0 +1,218 @@
+EPEs and EinsteinPy Governance
+------------------------------
+
+Author: Shreyas Bapat 
+
+date-created: 2020 February 02 
+
+date-last-revised: 2020 February 02 <keep this up to date anytime something changes>
+
+date-accepted: 2020 February 02 <replace with accepted date>
+
+type: Governance
+
+status: Discussion
+
+
+Abstract
+--------
+
+EPE stands for EinsteinPy Proposal for Enhancement. An EPE is actualy a design document 
+providing important information, details and governance models to the EinsteinPy community, 
+or describing a new feature for EinsteinPy or its affiliated packages. 
+The EPE should provide a concise technical specification of the feature and a rationale for the feature.
+If the EPE is intended to be regarding a governance specific model, a member meeting should be organised and
+the EPE must get atleast 51% votes to pass.
+
+We intend EPEs to be the primary mechanisms for proposing major new features, for collecting community 
+input on an issue, and for documenting the design decisions that have gone into Python. The EPE author 
+is responsible for building consensus within the community and documenting dissenting opinions.
+The EPE author is obligated to write a formal email to all@einsteinpy.org for a community meeting. 
+
+Because the EPEs are maintained as text files in a versioned repository (indirectly since this 
+wiki is versioned within github), their revision history is the historical record of the feature proposal
+
+The EPE is the beginning of formalism in the future major changes in EinsteinPy. This EPE 
+is meant for understanding what EinsteinPy Enhancement Proposals are, what function they 
+serve, and how they can be implemented.
+
+
+Detailed description
+--------------------
+
+As the governance of the project was mostly based on verbal communications untill now, 
+which might not be very much possile in the future. 
+
+There are four kinds of EPE:
+
+* A "Standard Track" EPE describes a new feature or implementation for
+  EinsteinPy. It may also describe an interoperability standard that will be
+  supported  in current EinsteinPy versions before a subsequent EPE adds the
+  feature in the future.
+
+* An "Informational" EPE describes an EinsteinPy design issue, or provides general
+  guidelines or information to the Python community, but does not propose a new
+  feature. Informational EPEs do not necessarily represent an EinsteinPy community
+  consensus or recommendation, so users and implementers are free to ignore
+  Informational EPEs or follow their advice. 
+
+* A "Process" EPE describes a process surrounding EinsteinPy, or proposes a change
+  to (or an event in) a process. Process EPEs are like Standard Track EPEs but
+  apply to areas other than the EinsteinPy package itself. 
+
+* A "Governance" EPE describes the democratic method of bringing changes to the 
+  EinsteinPy package and has discussions related to the powers of the individuals.
+  Changes to the Coordination Committee and Board Members can be made using these EPEs only.
+
+Submitting an EPE
+.................
+
+The EPE process begins with a new idea for EinsteinPy. It is highly recommended
+that a single EPE contain a single key proposal or new idea. Small
+enhancements or patches often don't need a EPE and can be injected into the
+EinsteinPy development workflow with a patch submission to the EinsteinPy issue
+tracker. The more focused the EPE, the more successful it tends to be. If in
+doubt, split your EPE into several well-focused ones.
+
+Each EPE must have a champion -- someone who writes the EPE using the style
+and format described below, shepherds the discussions in the appropriate
+forums, and attempts to build community consensus around the idea. The EPE
+champion (a.k.a. Author) should first attempt to ascertain whether the idea is
+EPE-able. Posting to the einsteinpy-dev mailing list is the best way to go about
+doing this.
+
+Following a discussion on einsteinpy-dev, the proposal should be submitted as a
+Pull Request to EinsteinPy-EPEs with the name EPE<n>.rst where <n> is an
+appropriately assigned number (5 digits). The draft must use the EPEtemplate.rst file.
+That a formal proposal has been submitted as a PR should be announced to the
+einsteimpy-dev list.
+
+The EPE author may update the EPE as needed.
+
+Standard Track EPEs consist of two parts, a design document and a reference
+implementation. It is generally recommended that at least a prototype
+implementation be co-developed with the EPE, as ideas that sound good in
+principle sometimes turn out to be impractical when subjected to the test of
+implementation. This is not required when too onerous, but some indication of
+implementation practicality is highly recommended by actual code. The best way
+to provide that code is via a github pull request either to the
+`einsteinpy/einsteinpy <https://github.com/einsteinpy/einsteinpy>`_ repository, or
+`einsteinpy/amr <https://github.com/einsteinpy/amr>`_, as
+appropriate.
+
+EPE Review
+..........
+
+Normally EPEs are discussed on einsteimpy-dev or on member community call and perhaps in other forums.
+Sometimes EPEs will grow out of an existing pull request, but it's better to
+have any discussion after the EPE is generated on the list, as it has a wider
+audience. The final decision on any EPE is made by the coordinating committee,
+though usually a consensus in the development is sufficient (but in unusual
+cases may be overridden by the coordinating committee). The decision may
+require changes to the EPE and any implementation. Final acceptance is not
+done until the required changes are made to the EPE and implementation.
+
+EPE Status
+..........
+
+An EPE's status can
+
+* "Discussion": New EPE pull requests should always start in this status.  This
+  means the EPE is currently being considered and a decision has not been made
+  regarding what should be done.
+
+* "Accepted": If an EPE is accepted, it will be merged - either the original
+  author can do this if they wish to fill in the "decision rationale" section,
+  or the coordination committee member who merges it can change the status and
+  write the rationale.  Regardless, if the EPE is an informational or process
+  EPE, it is now done. If it is standard track, this status means it is in the
+  process of being implemented.
+
+* "Implemented": Only valid for a Standard Track EPE.  This means the feature
+  discussed in the EPE is complete and has been fully merged into the main
+  EinsteinPy repository.
+
+* "Rejected": If it is decided that an EPE should be rejected, the person
+  who merges it should change its status to "Rejected."  The "decision
+  rationale" should also be filled in, either by the merger, the original
+  author, or another community member who voiced objections to the EPE.
+  The goal is to try to reflect the overall community opinion in these
+  rationales, so that new community members can understand why a decision was
+  made.
+
+This EPE also puts forward all the community positions. Formation of Coordination
+Committee and Board is facilitated through this EPE. 
+
+EinsteinPy EPEs are inspired by AstroPy APEs.
+
+Branches and pull requests (If applicable)
+------------------------------------------
+
+N/A
+
+
+Implementation
+--------------
+
+Creation of EinsteinPy Board. For important decsions regarding the project and 
+to handle the EinsteinPy Coordination Committee. 
+
+EinsteinPy Board 
+^^^^^^^^^^^^^^^^
+
+**Lead Developer** : Shreyas Bapat, Ritwik Saha
+
+**Deputy Lead Developer** : Bhavya Bhatt, Priyanshu Khandelwal
+
+
+The coordination committe is responsible for various things that happen inside the project.
+Every role has some dedication expected from it. 
+
+Coordination Committee
+^^^^^^^^^^^^^^^^^^^^^^
+
+**Continuous Integration Maintainer** :  Unfilled 
+
+**Deputy Continuous Integration Maintainer** :  Unfilled 
+
+**Release Manager** : Shreyas Bapat
+
+**Deputy Release Manager** : Unfilled
+
+**Webmaster** : Unfilled
+
+**Deputy Webmaster** : Unfilled 
+
+**Subpackage Maintainers** : 
+
+**Lead Newcomer** : 
+
+**GSoC Admin** : Shreyas Bapat
+
+**SOCIS Admin** : Ritwik Saha 
+
+**Communication and Education Lead** : Unfilled
+
+**Deputy Communication and Education Lead** : Unfilled
+
+**Blog Manager** : Unfilled
+
+**Deputy Blog Manager** : Unfilled
+
+All this must be published on the einsteinpy.org website. 
+
+Backward compatibility
+----------------------
+
+N/A
+
+
+Alternatives
+------------
+
+TBD
+
+Decision rationale
+------------------
+
+<To be filled in by the coordinating committee when the EPE is accepted or rejected>
