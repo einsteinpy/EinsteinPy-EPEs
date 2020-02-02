@@ -100,6 +100,6 @@ In the cases where an updated EPE requires updating (e.g. references to a  new
 EPE that supercedes it, clarifying information that emerges after the EPE is
 accepted, etc.), changes can be made directly via PR, but the
 "date-last-revised" should be updated in the EPE. Additionally, the Zenodo entry
-will need to be updated with a new version of the APE (*not* a completely new
+will need to be updated with a new version of the EPE (*not* a completely new
 Zenodo entry), by using the "New version" button and then filling out the forms
 as described above.
