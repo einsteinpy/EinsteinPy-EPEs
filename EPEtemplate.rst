@@ -63,4 +63,4 @@ be discussed here, along with a justification for the chosen approach.
 Decision rationale
 ------------------
 
-<To be filled in by the coordinating committee when the APE is accepted or rejected>
+<To be filled in by the coordinating committee when the EPE is accepted or rejected>
