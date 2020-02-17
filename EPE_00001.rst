@@ -158,7 +158,7 @@ Creation of EinsteinPy Board. For important decsions regarding the project and
 to handle the EinsteinPy Coordination Committee. 
 
 EinsteinPy Board 
-^^^^^^^^^^^^^^^^
+................
 
 **Lead Developer** : Shreyas Bapat, Ritwik Saha
 
@@ -169,7 +169,7 @@ The coordination committe is responsible for various things that happen inside t
 Every role has some dedication expected from it. 
 
 Coordination Committee
-^^^^^^^^^^^^^^^^^^^^^^
+......................
 
 **Continuous Integration Maintainer** :  Shreyas Bapat
 
