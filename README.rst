@@ -16,12 +16,12 @@ Accepted EPEs
 === ================================================================ =========== ============
 #     Title                                                          Date        DOI
 === ================================================================ =========== ============
-.. 1   `EPE Purpose and way to proceed`_                                2013-Nov-08 |APE 1 DOI|
+.. 1   `EPEs and EinsteinPy Governance`_                             2020-Feb-02 |EPE 1 DOI|
 === ================================================================ =========== ============
 
-.. _EPE Purpose and way to proceed: https://github.com/astropy/astropy-APEs/blob/master/APE1.rst
+.. _EPEs and EinsteinPy Governance: https://github.com/einsteinpy/EinsteinPy-EPEs/blob/master/EPE_00001.rst
 
-.. |APE 1 DOI| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1043886.svg
+.. |EPE 1 DOI| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1043886.svg
    :target: https://doi.org/10.5281/zenodo.1043886
 
 
