@@ -17,7 +17,7 @@ status: Accepted
 Abstract
 --------
 
-EPE stands for EinsteinPy Proposal for Enhancement. An EPE is actualy a design document 
+EPE stands for EinsteinPy Proposal for Enhancement. An EPE is actually a design document 
 providing important information, details and governance models to the EinsteinPy community, 
 or describing a new feature for EinsteinPy or its affiliated packages. 
 The EPE should provide a concise technical specification of the feature and a rationale for the feature.
