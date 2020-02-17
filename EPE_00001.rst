@@ -5,13 +5,13 @@ Author: Shreyas Bapat
 
 date-created: 2020 February 02 
 
-date-last-revised: 2020 February 02 <keep this up to date anytime something changes>
+date-last-revised: 2020 February 17 
 
-date-accepted: 2020 February 02 <replace with accepted date>
+date-accepted: 2020 February 17 
 
 type: Governance
 
-status: Discussion
+status: Accepted
 
 
 Abstract
@@ -171,7 +171,7 @@ Every role has some dedication expected from it.
 Coordination Committee
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Continuous Integration Maintainer** :  Unfilled 
+**Continuous Integration Maintainer** :  Shreyas Bapat
 
 **Deputy Continuous Integration Maintainer** :  Unfilled 
 
@@ -191,7 +191,7 @@ Coordination Committee
 
 **SOCIS Admin** : Ritwik Saha 
 
-**Communication and Education Lead** : Unfilled
+**Communication and Education Lead** : Sofía Ortin Vela 
 
 **Deputy Communication and Education Lead** : Unfilled
 
@@ -215,4 +215,4 @@ TBD
 Decision rationale
 ------------------
 
-<To be filled in by the coordinating committee when the EPE is accepted or rejected>
+The Coordination Committee had a discussion over a Google Meets Call and decided to move forward with it. 
