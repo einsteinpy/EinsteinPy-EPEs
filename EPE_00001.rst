@@ -215,4 +215,4 @@ TBD
 Decision rationale
 ------------------
 
-The Coordination Committee had a discussion over a Google Meets Call and decided to move forward with it. 
+The Coordination Committee had a discussion over a Google Meets Call and decided to move forward with it. The EPE is inspired by Astropy APE.
