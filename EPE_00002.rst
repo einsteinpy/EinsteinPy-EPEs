@@ -1,0 +1,92 @@
+Performance and GPU compatibility
+---------------------------------
+
+Author: Shreyas Bapat 
+
+date-created: 2020 February 02 
+
+date-last-revised: 2020 February 02 <keep this up to date anytime something changes>
+
+date-accepted: 2020 February 02 <replace with accepted date>
+
+type: Standard Track
+
+status: Discussion
+
+
+Abstract
+--------
+
+The EinsteinPy Codebase is currently in a beta state, where it can be used to play around with
+the data but, lacks the possibility of serious computations due to bad performance. We recently made
+some performance enhancements to accelerate the code upto 10-15X the current speed. But it is still not
+enough. Serious computations and research requires a very good performance along with ability to scale on 
+multiple CPUs, GPUs. This can further facilitate the adoption of EinsteinPy in general relativity community.
+Moreover, the overall code structure, including coordinate conversions are little bit tricky as well as 
+adding a new frame/coordinate system is a tiresome process in current model. 
+
+Detailed description
+--------------------
+
+There are multiple ways of accelerating the codebase. We would like to slowly try each and every one of them.
+First step in determining the performance will be profiling the complete codebase using asv!
+
+After profiling is done, we can have two backend type model (like tensorflow [Also, the tensorflow installation
+is now quite easy using conda]). Or anything else. For the low performance codebase too, we will need to replace certain 
+Python snippets with either less comples pyton jitted code snippets wherever possible, or with some sort of compiled fast 
+language (C++ / Rust). 
+
+The coordinate conversions in EinsteinPy are not the best in the industry right now. We aim to fix the problem
+of coordinate conversion through this EPE.
+
+Some modules like, shadow do not scale well. Also there are some theoretical issues which make the whole module slow. 
+We would like to simulate black hole shadows of real sized black holes rather than M=1 Black holes which have no practical 
+significance.
+
+Finally, this EPE also covers the performance of the visualisation module. There is a need for unification of plotting.
+There are 4-5 different types of plotters available in the codebase which majorly confuse users. 
+
+Branches and pull requests (If applicable)
+------------------------------------------
+
+N/A
+
+
+Issues addressing the EPE
+-------------------------
+
+https://github.com/einsteinpy/einsteinpy/issues/367
+
+https://github.com/einsteinpy/einsteinpy/issues/316
+
+https://github.com/einsteinpy/einsteinpy/issues/233
+
+https://github.com/einsteinpy/einsteinpy/issues/223
+
+https://github.com/einsteinpy/einsteinpy/issues/164
+
+https://github.com/einsteinpy/einsteinpy/issues/98
+
+https://github.com/einsteinpy/einsteinpy/issues/40
+
+
+Implementation
+--------------
+
+The project will be partially proposed as a GSoC/SOCIS Project.
+
+Backward compatibility
+----------------------
+
+No Bakcward compatibility.
+
+
+Alternatives
+------------
+
+TBD
+
+Decision rationale
+------------------
+
+<To be filled in by the coordinating committee when the EPE is accepted or rejected>
