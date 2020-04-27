@@ -1,5 +1,5 @@
 Addition of Penrose Diagram module
-----------------
+----------------------------------
 
 Author: Kris Akira Stern
 
