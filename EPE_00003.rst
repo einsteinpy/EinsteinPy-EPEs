@@ -1,0 +1,72 @@
+Addition of Penrose Diagram module
+----------------------------------
+
+Author: Kris Akira Stern
+
+date-created: 2020 April 26
+
+date-last-revised: 2020 April 26
+
+date-accepted: TBC
+
+type: Informational <one of these four: Standard Track, Informational, Process, Governance>
+
+status: Discussion
+
+
+Abstract
+--------
+
+It is proposed that a Penrose diagram (plotting) module should be included in the codebase of
+EinsteinPy, which could be harnessed as a predictive tool in the studies of black holes or
+even the hypothetical wormholes.
+
+
+Detailed description
+--------------------
+
+Currently EinsteinPy does not have the capability to compute and plot Penrose diagrams, which are
+2-dimensional diagrams showing the causal relations between points in some spacetime. It would be
+a good idea to implement some algorithm to add this feature. However, this will require some
+work on the null geodesics for Schwarzschild and Kerr Geometries (a GSoC 2020 Project idea)
+to have completed in order to build on top of it.
+
+Branches and pull requests (If applicable)
+------------------------------------------
+
+N/A
+
+
+Implementation
+--------------
+
+Two sources of code/algorithm provides means of two differenct approaches of implementation.
+The first of which is a paper published in 2018 by J. C. Schindler and A. Aguirre, which
+focuses on thealgorithms for the explicit computations of Penrose diagrams. (See
+arxiv article at `https://arxiv.org/abs/1802.02263 <https://arxiv.org/abs/1802.02263>`_)
+The second of which is the source code of a Penrose diagram demo based on Wolfram's Mathematica
+package available at
+`https://demonstrations.wolfram.com/PenroseDiagram <https://demonstrations.wolfram.com/PenroseDiagram/>`_.
+It is suggested that we could
+follow the Mathematica source code and derive something similar for EinsteinPy, in a way porting
+their code to the EinsteinPy codebase via some code translation. A third publication
+which provides the backbone for the theoretical discussion is a rather old publication
+from 1970 by Martin Walker which can beaccessed behind paywall at
+`https://aip.scitation.org/doi/10.1063/1.1665393 <https://aip.scitation.org/doi/10.1063/1.1665393>`_.
+
+Backward compatibility
+----------------------
+
+This aspect will need to be investigated further during the actual implementation. However, it is
+believed that the new module will not break the backward compatibility of EinsteinPy.
+
+Alternatives
+------------
+
+N/A
+
+
+Decision rationale
+------------------
+
+<To be filled in by the coordinating committee when the EPE is accepted or rejected>
