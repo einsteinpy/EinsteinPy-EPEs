@@ -78,9 +78,9 @@ A. Approaches
 There are two main ways to achieve the aforementioned goals:
 
 #. Numerically Integrating the Geodesic Equation (References `1, 2, 3 &
-   4 <????>`__)
+   4 <https://github.com/JeS24/EinsteinPy-EPEs/blob/master/EPE_00004/EPE_00004.rst#references>`__)
 #. Implementing a semi-analytical solution, particular to the spacetime
-   (References `5 & 6 <????>`__)
+   (References `5 & 6 <https://github.com/JeS24/EinsteinPy-EPEs/blob/master/EPE_00004/EPE_00004.rst#references>`__)
 
 A brief comparison of these approaches on relevant factors, is given
 below:
@@ -489,7 +489,7 @@ Alternatives
 .. If there were any alternative solutions to solving the same problem, they should
 .. be discussed here, along with a justification for the chosen approach.
 
-Alternatives have been discussed `up here <????>`__
+Alternatives have been discussed `up here <https://github.com/JeS24/EinsteinPy-EPEs/blob/master/EPE_00004/EPE_00004.rst#a-approaches>`__.
 
 --------------
 
